@@ -44,12 +44,12 @@ python simulation_script.py
 To generate plots via the command-line utility, use:
 
 ```bash
-python main.py <input_file> <output_directory> <number_of_simulations>
+python plot.py <input_file> <output_directory> <number_of_simulations>
 ```
 
 Example:
 ```bash
-python main.py classification.csv ./output 10
+python plot.py classification.csv ./output 10
 ```
 
 This will read the classification data, perform the specified number of simulations, and save the resulting plots in the `./output` directory.
